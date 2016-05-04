@@ -17,7 +17,7 @@ What this means is placing the build files outside of the project's source root 
     * If building with a CMake GUI application:
         1. Right click anywhere outside the project and make a new folder `cpp_clion_template_build/`.
     * If building through the cmake CLI (command line interface):
-        1. `mkdir cpp_clion_template_build`
+        1. `mkdir cpp_clion_template_build/`
 2. Set appropriate directories; depending on your CMake utility:
     * If building with a CMake GUI application:
         1. Set the 'source' directory to the top-level directory of this project.
@@ -38,3 +38,10 @@ What this means is placing the build files outside of the project's source root 
             1. To see available options simply type `cmake -G`
 5. Build the project using the generated build tools
     * For example, if you generated a `Makefile` type `make`.
+
+### Example
+Generating a Unix Makefile
+1. `mkdir cpp_clion_template_build/ && cd cpp_clion_template_build/`
+2. `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ../cpp_clion_template/`
+
+
