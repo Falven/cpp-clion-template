@@ -50,7 +50,7 @@ include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 
 # CMAKE INSTALLATION WITH CPACK
 include(InstallRequiredSystemLibraries)
-set(CPACK_RESOURCE_FILE_LICENSE "License.txt")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")
 set(CPACK_PACKAGE_VERSION_MAJOR "${cpp_clion_template_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${cpp_clion_template_VERSION_MINOR}")
 include(CPack)
@@ -60,5 +60,5 @@ enable_testing()
 #INCLUDE(CTest)
 
 # ADD OUR TESTING DIRECTORY
-add_subdirectory(test/)
-add_subdirectory(src/)
+add_subdirectory(cpp-clion-template/test/)
+add_subdirectory(cpp-clion-template/src/)
