@@ -45,6 +45,7 @@ Generating a Unix Makefile:
 
 1. `mkdir cpp_clion_template_build/ && cd cpp_clion_template_build/`
 2. `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ../cpp_clion_template/`
+3. `make`
 
 ## Running the tests.
 
