@@ -15,7 +15,7 @@ What this means is placing the build files outside of the project's source root 
 
 1. Create a directory outside of this project where binaries will be built.
     * If building with a CMake GUI application:
-        1. Right click anywhere outside the project and make a new folder `cpp_clion_template_build`.
+        1. Right click anywhere outside the project and make a new folder `cpp_clion_template_build/`.
     * If building through the cmake CLI (command line interface):
         1. `mkdir cpp_clion_template_build`
 2. Set appropriate directories; depending on your CMake utility:
