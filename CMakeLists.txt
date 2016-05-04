@@ -60,5 +60,5 @@ enable_testing()
 #INCLUDE(CTest)
 
 # ADD OUR TESTING DIRECTORY
-add_subdirectory(cpp-clion-template/test/)
-add_subdirectory(cpp-clion-template/src/)
+add_subdirectory(libs/cpp-clion-template/test/)
+add_subdirectory(libs/cpp-clion-template/src/)

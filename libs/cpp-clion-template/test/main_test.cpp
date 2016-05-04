@@ -9,6 +9,6 @@ using namespace std;
 
 int main(int argc, const char * argv [])
 {
-	cout << "Running Test!" << endl;
+	cout << "Running Main Test!" << endl;
 	return 0;
 }
