@@ -63,5 +63,7 @@ To run the tests:
      2. Open a CLI and switch to the binary directory of your build. `cd cd cpp_clion_template_build/`
      3. run `ctest` and cmake will run all of the tests associated with the project and output results.
 
+![Sample CTest results][ctest]
 
 [cmake]: https://github.com/Falven/cpp-clion-template/raw/master/resources/cmake.png "CMake Sample Results"
+[ctest]: https://github.com/Falven/cpp-clion-template/raw/master/resources/ctest.png "CTest Sample Results"
