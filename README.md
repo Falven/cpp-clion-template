@@ -45,6 +45,9 @@ Generating a Unix Makefile:
 
 1. `mkdir cpp_clion_template_build/ && cd cpp_clion_template_build/`
 2. `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ../cpp_clion_template/`
+
+![Sample CMake results][cmake]
+
 3. `make`
 
 ## Running the tests.
@@ -59,3 +62,6 @@ To run the tests:
   * If built with the CMake CLI:
      2. Open a CLI and switch to the binary directory of your build. `cd cd cpp_clion_template_build/`
      3. run `ctest` and cmake will run all of the tests associated with the project and output results.
+
+
+[cmake]: https://github.com/Falven/cpp-clion-template/raw/master/resources/cmake.png "CMake Sample Results"
