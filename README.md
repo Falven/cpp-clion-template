@@ -46,4 +46,15 @@ Generating a Unix Makefile:
 1. `mkdir cpp_clion_template_build/ && cd cpp_clion_template_build/`
 2. `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ../cpp_clion_template/`
 
+## Running the tests.
 
+This project uses CTest, CMake's built-in testing framework.
+
+To run the tests:
+1. Make sure you have built the project.
+2. Run the tests:
+  * If built with a CMake GUI application:
+     1. Simply run the project associated with the test (in Visual Studio, XCode...)
+  * If built with the CMake CLI:
+     2. Open a CLI and switch to the binary directory of your build. `cd cd cpp_clion_template_build/`
+     3. run `ctest` and cmake will run all of the tests associated with the project and output results.
