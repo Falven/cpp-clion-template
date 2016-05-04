@@ -55,7 +55,11 @@ set(CPACK_PACKAGE_VERSION_MAJOR "${cpp_clion_template_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${cpp_clion_template_VERSION_MINOR}")
 include(CPack)
 
-# ADD OUR TEST FILE DIRECTORY
+# ENABLE TESTING WITH CMAKE'S CTEST
+enable_testing()
+INCLUDE(CTest)
+
+# ADD OUR TESTING DIRECTORY
 add_subdirectory(test/)
 
 set(SOURCE_FILES main.cpp)
