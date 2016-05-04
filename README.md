@@ -40,7 +40,9 @@ What this means is placing the build files outside of the project's source root 
     * For example, if you generated a `Makefile` type `make`.
 
 ### Example
-Generating a Unix Makefile
+
+Generating a Unix Makefile:
+
 1. `mkdir cpp_clion_template_build/ && cd cpp_clion_template_build/`
 2. `cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug ../cpp_clion_template/`
 
